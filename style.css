@@ -915,6 +915,10 @@ margin-left: 17px;
 	{
 		position: relative;
 	}
+	.fa-chevron-left, .fa-chevron-left, .left, .right
+	{
+	display: none;
+}
 
 
 
