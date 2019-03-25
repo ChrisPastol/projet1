@@ -895,18 +895,15 @@ margin-left: 17px;
 		font-size: 0.9em;
 
 	}
-
 	.okok:hover
 	{
 	border-top: none;
 	padding-top: 0;
 	}
-
 	#slider
 	{
 		margin-top: 49px;
 	}
-
 	.textes_logos1, .textes_logos2, .textes_logos3
 	{
 		margin-right: : 400px;
@@ -918,7 +915,7 @@ margin-left: 17px;
 	.fa-chevron-left, .fa-chevron-left, .left, .right
 	{
 	display: none;
-}
+	}
 
 
 
