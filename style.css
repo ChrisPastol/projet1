@@ -808,7 +808,7 @@ margin-left: 17px;
 	{
 		width: auto;
 		height: 30px;
-		margin-top: 30px;
+		margin-top: 35px;
 		margin-left: 30px;
 	}
 
@@ -933,10 +933,6 @@ h1
 font-size: 1.5em;
 }
 	
-	.ux_text, .seo_text, .ui_text, .p_services, .description_services
-{
-	font-size:0.9em;
-}
 
 #Services,
 {
