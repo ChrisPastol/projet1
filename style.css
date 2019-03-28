@@ -174,7 +174,6 @@ a
 }
 .text_intro
 {
-	font-family: 'roboto:900';
 	font-size: 35px;
 	font-weight: 900;
 	color: white;
@@ -290,6 +289,7 @@ a
 {
 	text-align: center;
 	margin-top: 70px;
+	font-weight: 900;
 }
 
 /* Container trait-ron_bleu_trait page 2 */
@@ -424,6 +424,7 @@ a
 #projets
 {
 	text-align: center;
+	font-weight: 900;
 }
 
 /* container trait rond_bleu trait page 3 */
