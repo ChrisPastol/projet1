@@ -643,12 +643,20 @@ a
 	font-weight: bold;
 }
 
-.global1, .global2
+.global1
 {
 	position: relative;
 	display: flex;
 	justify-content: space-evenly;
 	margin-bottom: 20px;
+}
+
+.global2
+{
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 60px;
 }
 
 /* -------------------- CSS page 4 --------------------*/
