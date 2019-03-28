@@ -874,11 +874,13 @@ a
 	#Services
 	{
 		margin-top: 20px;
+		font-size: 2em;
 	}
 
 	#projets
 	{
 		margin-top: -10px;
+		font-size: 2em;
 	}
 
 	.global1
@@ -890,10 +892,5 @@ a
 	.global2
 	{
 		flex-direction: column;
-	}
-	
-	#Services, #projets
-	{
-		font-size: 2em;
 	}
 }
