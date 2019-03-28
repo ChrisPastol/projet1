@@ -901,4 +901,9 @@ a
 	{
 		flex-direction: column;
 	}
+	
+	#Services, #projets
+	{
+		font-size: 2em;
+	}
 }
