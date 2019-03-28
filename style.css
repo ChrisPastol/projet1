@@ -5,24 +5,24 @@
 @font-face
 {
     font-family: 'Roboto';
-    src: url('webagency_images/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    src: url('Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face
 {
     font-family: 'Roboto-bold';
-    src: url('webagency_images/fonts/Roboto/Roboto-bold.ttf') format('truetype');
+    src: url('Roboto-bold.ttf') format('truetype');
 }
 
 @font-face
 {	font-family: 'glyphicons';
-    src: url('webagency_images/fonts/Glyphicons/glyphicons-halflings-regular.ttf') format('truetype');
+    src: url('glyphicons-halflings-regular.ttf') format('truetype');
 }
 
 @font-face
 {
 	font-family: 'fontawesome';
-    src: url('webagency_images/fonts/fontawesome/fontawesome.ttf') format('truetype'),
+    src: url('fontawesome.ttf') format('truetype'),
     url('fontawesome-webfont.eot') format ('eot');
 }
 
