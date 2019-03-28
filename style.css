@@ -889,7 +889,13 @@ a
 		margin-top: -10px;
 	}
 
-	.global1, .global2
+	.global1
+	{
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+
+	.global2
 	{
 		flex-direction: column;
 	}
