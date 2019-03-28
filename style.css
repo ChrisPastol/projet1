@@ -1,4 +1,32 @@
-/* Body and co */
+/* ------------------------ CSS Global ------------------------ */
+
+/* Fonts */
+
+@font-face
+{
+    font-family: 'Roboto';
+    src: url('webagency_images/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Roboto-bold';
+    src: url('webagency_images/fonts/Roboto/Roboto-bold.ttf') format('truetype');
+}
+
+@font-face
+{	font-family: 'glyphicons';
+    src: url('webagency_images/fonts/Glyphicons/glyphicons-halflings-regular.ttf') format('truetype');
+}
+
+@font-face
+{
+	font-family: 'fontawesome';
+    src: url('webagency_images/fonts/fontawesome/fontawesome.ttf') format('truetype'),
+    url('fontawesome-webfont.eot') format ('eot');
+}
+
+/* Body and cie */
 
 body
 {	
@@ -8,7 +36,7 @@ body
 
 ul
 {
-list-style-type: none;
+	list-style-type: none;
 }
 
 h1
@@ -16,7 +44,6 @@ h1
 	color: #272727;
 	font-family: roboto-bold;
 	font-size: 2.5em;
-
 }
 
 p
@@ -37,15 +64,13 @@ a
 }
 
 
-/* ---------------------------------------------------------------------------------------- CSS page 1 --------------------------------------------------------------------------- */
+/* --------------------- CSS page 1 ------------------ */
 
 .page1
 {
 	background-image:linear-gradient(white, #F5F5F5);
 	position: relative;
 }
-
-
 /* Container accueil */
 
 .container_accueil
@@ -70,14 +95,14 @@ a
 	margin-left: 150px;
 }
 
-.okok:hover
+.nav_bar:hover
 {
-border-top: 3px outset #5CADD3;
-opacity: 0.8;
-padding-top: 28px;
+	border-top: 3px outset #5CADD3;
+	opacity: 0.8;
+	padding-top: 28px;
 }
 
-.okok
+.nav_bar
 {
 	margin-left: 30px;
 	color: #696969;
@@ -85,25 +110,23 @@ padding-top: 28px;
 
 /*Slider*/
 
-
 #slider
 {
-  overflow: hidden;
-  padding-top: 100px;
-  width: 100%;
-  height: auto;
-  position: relative;
+	overflow: hidden;
+	padding-top: 100px;
+	width: 100%;
+	height: auto;
+	position: relative;
 
 }
 
 #slider figure
 {
 	position: relative;
-  width: 200%;
-  margin: 0;
-  left: 0;
-  animation: 20s slider infinite;
-
+	width: 200%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
 }
 
 #slider figure img
@@ -115,12 +138,10 @@ padding-top: 28px;
 @keyframes slider
 {
 
-
 0%
 {
   left: 0;
 }
-
 
 25%
 {
@@ -151,17 +172,12 @@ padding-top: 28px;
 	top: 225px;
 	margin-left: 170px;
 }
-
-
-
 .text_intro
 {
 	font-family: 'roboto-bold';
 	font-size: 35px;
 	font-weight: bold;
 	color: white;
-
-
 }
 
 .ligne2
@@ -177,24 +193,21 @@ padding-top: 28px;
 	display: flex;
 	background-color:grey;
 	opacity: 0.3;
-width: 100%;
-height: 5px;
-margin-top: -4px;
+	width: 100%;
+	height: 5px;
+	margin-top: -4px;
 }
 
 .barre1
 {
-background-color:#5CADD3;
-width: 200px;
-height: 4px;
-position: absolute;
-z-index: 2;
-margin-top: -4px;
-opacity: 0.9;
+	background-color:#5CADD3;
+	width: 200px;
+	height: 4px;
+	position: absolute;
+	z-index: 2;
+	margin-top: -4px;
+	opacity: 0.9;
 }
-
-
-
 
 .box_infos
 {
@@ -204,7 +217,6 @@ opacity: 0.9;
 	border-radius: 3px;
 	border-bottom: 3px solid #4494BB;
 }
-
 
 .Web
 {
@@ -226,9 +238,8 @@ opacity: 0.9;
 
 .span
 {
-font-weight: bold;
+	font-weight: bold;
 }
-
 
 .left
 {
@@ -242,15 +253,16 @@ font-weight: bold;
     display: block;
 }
 
-.right {
-  position: absolute;
-  top: 41%;
-  right: 0px;
-  border-radius: 50% 0 0 50%;
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 60px;
-  height: 60px;
-  display: block;
+.right
+{
+	position: absolute;
+	top: 41%;
+	right: 0px;
+	border-radius: 50% 0 0 50%;
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 60px;
+	height: 60px;
+	display: block;
 }
 
 .left:hover, .right:hover
@@ -261,22 +273,18 @@ font-weight: bold;
 /* Chevron dans bouton */
 
 .fa-chevron-left {
-  position: relative;
-  left: -10%;
-  color:white!important;
+	position: relative;
+	left: -10%;
+	color:white!important;
 }
 
 .fa-chevron-right {
-  position: relative;
-  right: 25%;
-  color:white!important;
+	position: relative;
+	right: 25%;
+	color:white!important;
 }
 
-
-
-/* ------------------------------------------------------------------------------------- CSS page 2 ----------------------------------------------------------------------------- */
-
-
+/* ---------------- CSS page 2 ---------------- */
 
 #Services
 {
@@ -286,29 +294,25 @@ font-weight: bold;
 
 /* Container trait-ron_bleu_trait page 2 */
 
-
 .container1
 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 }
 
 /* Trait1 gris page 2 top */
 
-
-.trait
+.line
 {
 	height:1px;
 	background-color:#DADADA;
 	width: 90px;
-
 }
 
 /* Rond bleu page 2 top */
 
-.cercle1
+.circle
 {
 	width: 14px;
 	height: 14px;
@@ -324,10 +328,6 @@ font-weight: bold;
 	text-align: center;
 }
 
-
-/*---------------------------------------------------------------------------------------------*/
-
-
 .page3
 {
 	background-image:linear-gradient(#F5F5F5, white);
@@ -338,7 +338,6 @@ font-weight: bold;
 	display: flex;
 }
 
-
 .page2
 {
 	display: flex;
@@ -346,11 +345,10 @@ font-weight: bold;
 	width: 80%
 }
 
-
 .textes_logos1,.textes_logos2, .textes_logos3
 {
-margin-left: 50px;
-margin-top: 40px;
+	margin-left: 50px;
+	margin-top: 40px;
 }
 
 .textes_logos3
@@ -362,15 +360,14 @@ margin-top: 40px;
 
 .mac
 {
-height: 80%;
-margin-left: 200px;
-
+	height: 80%;
+	margin-left: 200px;
 }
 
-/*------------------------------------ full logo 1 page 2---------------------------------------------*/
+/*---------------------- full logo 1 page 2--------------------*/
 /* Cercle gris ux page 2*/
 
-.cercle4, .cercle3, .cercle2
+.circle_p3
 {
 	width: 55px;
 	height: 55px;
@@ -379,9 +376,10 @@ margin-left: 200px;
 	border: 1px #E5E5E5 solid;
 }
 
+
 /* Mini cercle bleu seo design page 2*/
 
-.minicercle1, .minicercle2, .minicercle3
+.mini_circle
 {
 	width: 14px;
 	height: 14px;
@@ -390,8 +388,7 @@ margin-left: 200px;
     margin-left: 44px;
     margin-top: 18px;
 	position: absolute;
-	border: white solid 4px;
-	
+	border: white solid 4px;	
 }
 
 /* texte ux */
@@ -411,9 +408,7 @@ margin-left: 200px;
 	font-size: 20px;
 }
 
-/* ------------------------------------------------------------------------------------- CSS page 3 ----------------------------------------------------------------------------- */
-
-
+/* ------------------------ CSS page 3 ------------------------ */
 
 .ok
 {
@@ -440,7 +435,6 @@ margin-left: 200px;
 	align-items: center;
 }
 
-
 /* description_services_paragraphe page 3 top */
 
 .description_services
@@ -449,7 +443,6 @@ margin-left: 200px;
 }
 
 /* flexbox Liens dans boites grises */
-
 
 .cadre_text
 {
@@ -476,36 +469,35 @@ margin-left: 200px;
 
 .cadre:hover .triangle
 {
-  border-top : 10px solid #4494BB;
+	border-top : 10px solid #4494BB;
 }
 
 .cadre1:hover .triangle
 {
-  border-top : 10px solid #4494BB;
+	border-top : 10px solid #4494BB;
 }
 
 .cadre4:hover .triangle
 {
-  border-top : 10px solid #4494BB;
+	border-top : 10px solid #4494BB;
 }
-
 
 .cadre:hover .cadre_text
 {
-color: white;
-font-style: bold;
+	color: white;
+	font-style: bold;
 }
 
 .cadre1:hover .cadre_text
 {
-color: white;
-font-style: bold;
+	color: white;
+	font-style: bold;
 }
 
 .cadre4:hover .cadre_text
 {
-color: white;
-font-style: bold;
+	color: white;
+	font-style: bold;
 }
 
 .cadre1:hover
@@ -532,7 +524,7 @@ font-style: bold;
 	position: relative;
 }
 
-.cadre1
+.cadre1 /* cadre bord arrondit droit */
 {
 	width: 90px;
 	height: 40px;
@@ -543,7 +535,7 @@ font-style: bold;
 	border-radius: 5px 0px 0px 5px;
 }
 
-.cadre4
+.cadre4 /* cadre bord arrondit gauche */
 {
 	width: 90px;
 	height: 40px;
@@ -557,7 +549,7 @@ font-style: bold;
 .triangle
 {
 	display : block;
-	 height : 0;
+	height : 0;
  	width : 0;
  	border-top : 10px solid #FFFFFF;
  	border-right : 10px solid transparent;
@@ -569,11 +561,10 @@ font-style: bold;
 
 /*photos + hover */
 
-
 .cercle
 {
     z-index: 3;
-    margin-left: 239px;
+    margin-left: 232px;
     margin-top: -84px;
     width: 40px;
     height: 40px;
@@ -593,12 +584,10 @@ font-style: bold;
 {
     position: absolute;
     z-index: 4;
-    margin-left: 251px;
+    margin-left: 245px;
     margin-top: -30px;
     color: white;
 }
-
-
 
 .photop3 {
     display: flex;
@@ -613,7 +602,6 @@ font-style: bold;
     max-width: 300px;
     max-height: auto;
     position: relative;
-
 }
 
 .photop3:hover .figcaption_page3
@@ -621,8 +609,8 @@ font-style: bold;
 	opacity: 0.9;
 }
 
-
-.figcaption_page3 {
+.figcaption_page3
+{
     background-color: #222;
     opacity: 0;
     color: white;
@@ -643,7 +631,6 @@ font-style: bold;
 {
     margin-left: -5px;
     font-family: fontawesome;
-
 }
 
 .ligne1
@@ -651,12 +638,6 @@ font-style: bold;
 	font-size: 22px;
 	font-family: glyphicons;
 	font-weight: bold;
-}
-
-
-.container_page3
-{
-	margin-bottom: 90px;
 }
 
 .global1, .global2
@@ -667,25 +648,21 @@ font-style: bold;
 	margin-bottom: 20px;
 }
 
-
-
-/* ------------------------------------------------------------------------------------- CSS page 4 -----------------------------------------------------------------------*/
+/* -------------------- CSS page 4 --------------------*/
 
 .form
 {
-
-width: 400px;
-background-color: #EDF4FA;
-opacity: 0.9;
-padding-left: 10px;
-border-radius: 1%;
-float: right;
-margin-right: 180px;
-margin-top: 90px;
-position: relative;
-z-index: 2;
+	width: 400px;
+	background-color: #EDF4FA;
+	opacity: 0.9;
+	padding-left: 10px;
+	border-radius: 1%;
+	float: right;
+	margin-right: 180px;
+	margin-top: 90px;
+	position: relative;
+	z-index: 2;
 }
-
 
 .form_text_1
 {
@@ -703,7 +680,6 @@ z-index: 2;
 	margin-left: 17px;
 }
 
-
 .Subject, .Name, .Email, .Message
 {
 	padding: 8px;
@@ -717,15 +693,15 @@ z-index: 2;
 
 .Submit
 {
-margin-bottom: 30px;
-background-color: #5CADD3;
-color: white;
-font-weight: bold;
-border-radius: 3px;
-padding: 11px;
-border: solid 1px #5CADD3;
-border-bottom: 2px solid #4494BB;
-margin-left: 17px;
+	margin-bottom: 30px;
+	background-color: #5CADD3;
+	color: white;
+	font-weight: bold;
+	border-radius: 3px;
+	padding: 11px;
+	border: solid 1px #5CADD3;
+	border-bottom: 2px solid #4494BB;
+	margin-left: 17px;
 }
 
 .map
@@ -743,16 +719,19 @@ margin-left: 17px;
 	position: absolute;
 }
 
-
-/*----------------------------------------RESPONSIVE----------------------------------*/
+/*-------------------------RESPONSIVE----------------------*/
 
 @media screen and (max-width: 1350px)
 {
-
 	body
 	{
 		width: 100%;
 		margin: 0;
+	}
+
+	h1
+	{
+		font-size: 1.5em;
 	}
 
 	#global
@@ -772,21 +751,15 @@ margin-left: 17px;
 
 	.box_infos
 	{
-	display: none;
+		display: none;
 	}
 
 	.logo
 	{
 		width: auto;
 		height: 30px;
-		margin-top: 35px;
+		margin-top: 30px;
 		margin-left: 30px;
-	}
-
-	.global1, .global2
-	{
-
-		flex-direction: column;
 	}
 
 	.mac
@@ -796,7 +769,8 @@ margin-left: 17px;
 
 	.map
 	{
-		display: none;
+
+		display: none;	
 	}
 
 	.filtre
@@ -804,26 +778,23 @@ margin-left: 17px;
 		display: none;
 	}
 
-
 	.page
 	{
 	display: none;
-
 	}
 
-	.okok
+	.nav_bar
 	{
-		flex-direction: column;
+	flex-direction: column;
 	margin-right: -10px;
 	position: relative;
 	}
 
-	.okok:hover
+	.nav_bar:hover
 	{
 	border-top: none;
 	padding-top: 0;
 	}
-
 
 	.Name, .Email, .Subject, .Message
 	{
@@ -838,40 +809,34 @@ margin-left: 17px;
 	.form_text_2
 	{
 		font-size: 0.9em;
-
 	}
 
-	.nav {
-	  display: flex;
-	  flex-direction: column;
-	  margin-right: 50px;
-	  background-color : transparent;
-
-
+	.nav
+	{
+		display: flex;
+		flex-direction: column;
+		margin-right: 50px;
+		background-color : transparent;
 	}
 
-
-	.form {
-
+	.form
+	{
 	float: center;
 	margin-right: auto;
 	position: absolute;
 	margin-bottom: 15px;
-	}
-
-
-	.form {
 	width: 80%;
 	float:right;
 	margin-left: 10%;
-	margin-top: -70px;
+	margin-top: 0px;
+
+	
 	}
 
 	.page2
 	{
-	margin-top: 0px;
+		margin-top: 0px;
 	}
-
 
 	.form_text_1
 	{
@@ -881,7 +846,6 @@ margin-left: 17px;
 	.form_text_2
 	{
 		font-size: 0.9em;
-
 	}
 
 	#slider
@@ -894,26 +858,28 @@ margin-left: 17px;
 		margin-right: : 400px;
 	}
 
-.fa-chevron-left, .fa-chevron-left, .left, .right
-{
-	display: none;
-}
+	.fa-chevron-left, .fa-chevron-left, .left, .right
+	{
+		display: none;
+	}
 
-h1
-{
-font-size: 1.5em;
-}
-	
+	.ux_text, .seo_text, .ui_text, .p_services, .description_services
+	{
+		font-size:0.9em;
+	}
 
-#Services,
-{
-	margin-top: 20px;
-}
+	#Services
+	{
+		margin-top: 20px;
+	}
 
-#projets
-{
-	margin-top: -10px;
-}
+	#projets
+	{
+		margin-top: -10px;
+	}
 
-
+	.global1, .global2
+	{
+		flex-direction: column;
+	}
 }
