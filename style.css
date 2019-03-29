@@ -683,16 +683,28 @@ a
 	font-size: 25px;
 	font-family: 'roboto';
 	font-weight: 900;
-	margin-left: 17px;
+	margin-left: 15px;
+	
 }
 
 .form_text_2
 {
 	color: #64686D;
-	font-weight: bold;
 	margin-left: 17px;
+	line-height: 150%;
+	font-family: 'roboto';
+	font-weight: 400;
 }
 
+.SAS
+{
+	color: #64686D;
+	margin-left: 17px;
+	line-height: 140%;
+	font-family: 'roboto';
+	font-weight: 900;
+	margin-left: 0px;
+}
 .Subject, .Name, .Email, .Message
 {
 	padding: 8px;
@@ -724,7 +736,7 @@ a
 	opacity: 0.8;
 }
 
-.filtre
+.blue_filter
 {
 	background-color:  rgba(0, 120, 193, 0.9);
 	width: 100%;
@@ -786,7 +798,7 @@ a
 		display: none;	
 	}
 
-	.filtre
+	.blue_filter
 	{
 		display: none;
 	}
