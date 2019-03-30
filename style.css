@@ -587,8 +587,7 @@ a
 }
 
 .photos_page3 {
-    max-width: 300px;
-    max-height: auto;
+    max-width: 300px; 
     position: relative;
 }
 
@@ -856,7 +855,7 @@ a
 
 	.textes_logos1, .textes_logos2, .textes_logos3
 	{
-		margin-right: : 400px;
+		margin-right: 400px;
 	}
 
 	.fa-chevron-left, .fa-chevron-left, .left, .right
