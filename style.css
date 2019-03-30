@@ -5,24 +5,24 @@
 @font-face
 {
     font-family: 'Roboto';
-    src: url('Roboto-Regular.ttf') format('truetype');
+    src: url('webagency_images/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face
 {
     font-family: 'Roboto-bold';
-    src: url('Roboto-bold.ttf') format('truetype');
+    src: url('webagency_images/fonts/Roboto/Roboto-bold.ttf') format('truetype');
 }
 
 @font-face
 {	font-family: 'glyphicons';
-    src: url('glyphicons-halflings-regular.ttf') format('truetype');
+    src: url('webagency_images/fonts/Glyphicons/glyphicons-halflings-regular.ttf') format('truetype');
 }
 
 @font-face
 {
 	font-family: 'fontawesome';
-    src: url('fontawesome.ttf') format('truetype'),
+    src: url('webagency_images/fonts/fontawesome/fontawesome.ttf') format('truetype'),
     url('fontawesome-webfont.eot') format ('eot');
 }
 
@@ -37,6 +37,7 @@ body
 ul
 {
 	list-style-type: none;
+	display: flex;
 }
 
 h1
@@ -174,8 +175,9 @@ a
 }
 .text_intro
 {
+	font-family: 'roboto-bold';
 	font-size: 35px;
-	font-weight: 900;
+	font-weight: bold;
 	color: white;
 }
 
@@ -285,13 +287,13 @@ a
 
 /* ---------------- CSS page 2 ---------------- */
 
-#Services
+#services
 {
 	text-align: center;
 	margin-top: 70px;
-	font-weight: 900;
 	font-size: 2.5em;
-	font-family: Roboto;
+	font-family: 'roboto';
+	font-weight: 900;
 }
 
 /* Container trait-ron_bleu_trait page 2 */
@@ -345,6 +347,11 @@ a
 	display: flex;
 	margin-top: 80px;
 	width: 80%
+	margin: auto;
+	justify-content: center;
+	margin: 0 auto;
+	width: 80%;
+
 }
 
 .textes_logos1,.textes_logos2, .textes_logos3
@@ -363,7 +370,6 @@ a
 .mac
 {
 	height: 80%;
-	margin-left: 200px;
 }
 
 /*---------------------- full logo 1 page 2--------------------*/
@@ -426,9 +432,9 @@ a
 #projets
 {
 	text-align: center;
-	font-weight: 900;
 	font-size: 2.5em;
-	font-family: Roboto;
+	font-family: 'roboto';
+	font-weight: 900;
 }
 
 /* container trait rond_bleu trait page 3 */
@@ -635,13 +641,13 @@ a
 .text
 {
     margin-left: -5px;
-    font-family: fontawesome;
+    font-family: 'roboto';
 }
 
 .ligne1
 {
 	font-size: 22px;
-	font-family: glyphicons;
+	font-family: 'roboto';
 	font-weight: bold;
 }
 
@@ -705,6 +711,7 @@ a
 	font-weight: 900;
 	margin-left: 0px;
 }
+
 .Subject, .Name, .Email, .Message
 {
 	padding: 8px;
@@ -734,6 +741,7 @@ a
 	position: absolute;
 	z-index: 1;
 	opacity: 0.8;
+	width:100%;
 }
 
 .blue_filter
@@ -880,7 +888,7 @@ a
 
 	.ux_text, .seo_text, .ui_text, .p_services, .description_services
 	{
-		font-size:1em;
+		font-size:0.9em;
 	}
 
 	#Services
@@ -905,4 +913,5 @@ a
 	{
 		flex-direction: column;
 	}
+
 }
