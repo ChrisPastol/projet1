@@ -742,6 +742,7 @@ a
 	z-index: 1;
 	opacity: 0.8;
 	width:100%;
+	border: none;
 }
 
 .blue_filter
