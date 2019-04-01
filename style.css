@@ -581,8 +581,8 @@ a
 }
 
 .photos_page3 {
-    max-width: 300px; 
-    position: relative;
+	max-width: 300px; 
+	position: relative;
 }
 
 .photop3:hover .figcaption_page3
@@ -592,15 +592,15 @@ a
 
 .figcaption_page3
 {
-    background-color: #222;
-    opacity: 0;
-    color: white;
-    padding: 17px;
-    margin-top: 117px;
-    margin-left: 0px;
-    position: absolute;
-    width: 266px;
-    height: 49px;
+	background-color: #222;
+	opacity: 0;
+	color: white;
+	padding: 17px;
+	margin-top: 117px;
+	margin-left: 0px;
+	position: absolute;
+	width: 266px;
+	height: 49px;
 }
 
 .figcaption_page3:hover
@@ -610,8 +610,8 @@ a
 
 .text
 {
-    margin-left: -5px;
-    font-family: 'roboto';
+	margin-left: -5px;
+	font-family: 'roboto';
 }
 
 .ligne1
