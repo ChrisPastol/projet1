@@ -659,8 +659,7 @@ a
 	font-size: 25px;
 	font-family: 'roboto';
 	font-weight: 900;
-	margin-left: 15px;
-	
+	margin-left: 15px;	
 }
 
 .form_text_2
@@ -825,7 +824,6 @@ a
 
 	.form
 	{
-	
 	margin-right: auto;
 	position: absolute;
 	margin-bottom: 15px;
@@ -833,8 +831,6 @@ a
 	float:right;
 	margin-left: 10%;
 	margin-top: 0px;
-
-	
 	}
 
 	.page2
