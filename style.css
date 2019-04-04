@@ -783,20 +783,20 @@ a
 
 	.page
 	{
-	display: none;
+		display: none;
 	}
 
 	.nav_bar
 	{
-	flex-direction: column;
-	margin-right: -10px;
-	position: relative;
+		flex-direction: column;
+		margin-right: -10px;
+		position: relative;
 	}
 
 	.nav_bar:hover
 	{
-	border-top: none;
-	padding-top: 0;
+		border-top: none;
+		padding-top: 0;
 	}
 
 	.Name, .Email, .Subject, .Message
@@ -824,13 +824,13 @@ a
 
 	.form
 	{
-	margin-right: auto;
-	position: absolute;
-	margin-bottom: 15px;
-	width: 80%;
-	float:right;
-	margin-left: 10%;
-	margin-top: 0px;
+		margin-right: auto;
+		position: absolute;
+		margin-bottom: 15px;
+		width: 80%;
+		float:right;
+		margin-left: 10%;
+		margin-top: 0px;
 	}
 
 	.page2
@@ -845,7 +845,7 @@ a
 
 	.textes_logos1, .textes_logos2, .textes_logos3
 	{
-			margin-right: 80px;
+		margin-right: 80px;
 	}
 
 	.fa-chevron-left, .fa-chevron-left, .left, .right
