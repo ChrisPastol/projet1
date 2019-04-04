@@ -90,7 +90,6 @@ a
 	width: 100%;
 	height: auto;
 	position: relative;
-
 }
 
 #slider figure
@@ -155,8 +154,7 @@ a
 
 .ligne2
 {
-	font-size: 15px;
-	
+	font-size: 15px;	
 }
 
 .barre
@@ -323,7 +321,6 @@ a
 	justify-content: center;
 	margin: 0 auto;
 	width: 80%;
-
 }
 
 .textes_logos1,.textes_logos2, .textes_logos3
