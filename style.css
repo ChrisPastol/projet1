@@ -877,5 +877,10 @@ a
 	{
 		flex-direction: column;
 	}
+	
+		.barre, .barre1
+	{
+		display: none;
+	}
 
 }
