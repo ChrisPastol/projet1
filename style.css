@@ -797,7 +797,7 @@ a
 		padding-top: 0;
 	}
 
-	#name, #email, #subject, #message
+	#name, #mail, #subject, #message
 	{
 		width: 75%;
 	}
