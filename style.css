@@ -39,28 +39,28 @@ a
 
 /* --------------------- CSS page 1 ------------------ */
 
-.page1
+#first
 {
 	background-image:linear-gradient(white, #F5F5F5);
 	position: relative;
 }
 /* Container accueil */
 
-.container_accueil
+#container_accueil
 {
 	position: fixed;
 	display: flex;
 	justify-content: space-around;
 	margin:0;
-	padding:0;
-	left: 0;
-	right: 0;
-	top: 0;
-	z-index: 1;
-	padding-top: 15px;
-	background-color: white;
-	padding-bottom: 20px;
-	z-index: 3;
+    padding:0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    padding-top: 15px;
+    background-color: white;
+    padding-bottom: 20px;
+    z-index: 3;
 }
 
 .li, .ul
@@ -90,6 +90,7 @@ a
 	width: 100%;
 	height: auto;
 	position: relative;
+
 }
 
 #slider figure
@@ -109,55 +110,54 @@ a
 
 @keyframes slider
 {
-
 0%
 {
-	left: 0;
+  left: 0;
 }
 
 25%
 {
-	left: 0;
+  left: 0;
 }
 
 50%
 {
-	left: -100%
+  left: -100%
 }
 
 75%
 {
-	left: -100%
+  left: -100%
 }
 100%
 {
-	left: 0;
+  left: 0;
 }
-
 }
 
 /*box infos dans slider*/
 
-.text_slider
+#text_slider
 {
 	position: absolute;
 	top: 250px;
 	margin-left: 190px;
 }
-.text_intro
+#text_intro
 {	
 	font-size: 35px;
 	color: white;
 	font-family: 'roboto';
-	font-weight: 900;
+    font-weight: 900;
 }
 
-.ligne2
+#ligne2
 {
-	font-size: 15px;	
+	font-size: 15px;
+	
 }
 
-.barre
+#barre
 {
 	position: absolute;
 	z-index: 1;
@@ -169,7 +169,7 @@ a
 	margin-top: -4px;
 }
 
-.barre1
+#barre1
 {
 	background-color:#5CADD3;
 	width: 200px;
@@ -180,7 +180,7 @@ a
 	opacity: 0.9;
 }
 
-.box_infos
+#box_infos
 {
 	width: 115px;
 	height: 43px;
@@ -189,12 +189,12 @@ a
 	border-bottom: 3px solid #4494BB;
 }
 
-.Web
+#Web
 {
 	color: #5CADD3;
 }
 
-.plus_infos
+#plus_infos
 {
 	color: white;
 	margin-left: 16px;
@@ -202,7 +202,7 @@ a
 	position: absolute;
 }
 
-.border_page1
+#border_page1
 {
 	padding-bottom: 90px;
 }
@@ -219,9 +219,9 @@ a
 	left: 0px;
 	border-radius: 0 50% 50% 0;
 	background-color: rgba(0, 0, 0, 0.2);
-	width: 60px;
-	height: 60px;
-	display: block;
+    width: 60px;
+    height: 60px;
+    display: block;
 }
 
 .right
@@ -268,7 +268,7 @@ a
 
 /* Container trait-ron_bleu_trait page 2 */
 
-.container1
+#container1
 {
 	display: flex;
 	align-items: center;
@@ -297,23 +297,20 @@ a
 
 /* Phrase d'accroche page 2 */
 
-.p_services
+#p_services
 {
 	text-align: center;
-	padding: 20px;
+	padding: 10px;
 }
 
-.page3
-{
-	background-image:linear-gradient(#F5F5F5, white);
-}
-
-.textes_logos1, .textes_logos2, .textes_logos3
+#textes_logos1, #textes_logos2, #textes_logos3
 {
 	display: flex;
+	margin-left: 50px;
+	margin-top: 40px;
 }
 
-.page2
+#full_flexbox_p2
 {
 	display: flex;
 	margin-top: 80px;
@@ -321,23 +318,16 @@ a
 	margin: auto;
 	justify-content: center;
 	margin: 0 auto;
-	width: 80%;
 }
 
-.textes_logos1,.textes_logos2, .textes_logos3
-{
-	margin-left: 50px;
-	margin-top: 40px;
-}
-
-.textes_logos3
+#textes_logos3
 {
 	margin-bottom: 60px;
 }
 
 /* Image mac */
 
-.mac
+#mac
 {
 	height: 80%;
 }
@@ -345,7 +335,7 @@ a
 /*---------------------- full logo 1 page 2--------------------*/
 /* Cercle gris ux page 2*/
 
-.circle_p3
+.circle_design
 {
 	width: 55px;
 	height: 55px;
@@ -363,15 +353,15 @@ a
 	height: 14px;
 	border-radius: 50%;
 	background: #5CADD3;
-	margin-left: 44px;
-	margin-top: 18px;
+    margin-left: 44px;
+    margin-top: 18px;
 	position: absolute;
 	border: white solid 4px;	
 }
 
 /* texte ux */
 
-.ux_text, .seo_text, .ui_text
+#ux_text, #seo_text, #ui_text
 {
 	margin-left: 30px;
 	margin-top: 0px;
@@ -388,16 +378,17 @@ a
 
 /* ------------------------ CSS page 3 ------------------------ */
 
-.ok
+#border_page3
+{
+	background-image:linear-gradient(#F5F5F5, white);
+}
+
+.title_services
 {
 	font-weight: bold;
 	color: black;
 }
 
-.border_page3
-{
-	padding-bottom: 30px;
-}
 
 #projets
 {
@@ -405,6 +396,7 @@ a
 	font-size: 2.5em;
 	font-family: 'roboto';
 	font-weight: 900;
+	padding-top: 60px;
 }
 
 /* container trait rond_bleu trait page 3 */
@@ -454,12 +446,12 @@ a
 	border-top : 10px solid #4494BB;
 }
 
-.cadre1:hover .triangle
+#cadre1:hover .triangle
 {
 	border-top : 10px solid #4494BB;
 }
 
-.cadre4:hover .triangle
+#cadre4:hover .triangle
 {
 	border-top : 10px solid #4494BB;
 }
@@ -470,26 +462,26 @@ a
 	font-weight: 400;
 }
 
-.cadre1:hover .cadre_text
+#cadre1:hover .cadre_text
 {
 	color: white;
 	font-weight: 400;
 }
 
-.cadre4:hover .cadre_text
+#cadre4:hover .cadre_text
 {
 	color: white;
 	font-weight: 400;
 }
 
-.cadre1:hover
+#cadre1:hover
 {
 	background-color: #5CADD3;
 	opacity: 0.9;
 	border-bottom: 3px solid #468CAD;
 }
 
-.cadre4:hover
+#cadre4:hover
 {
 	background-color: #5CADD3;
 	opacity: 0.9;
@@ -505,7 +497,7 @@ a
 	border-bottom: 3px solid #F5F5F5;
 }
 
-.cadre1 /* cadre bord arrondit droit */
+#cadre1 /* cadre bord arrondit droit */
 {
 	width: 90px;
 	height: 40px;
@@ -516,7 +508,7 @@ a
 	border-radius: 5px 0px 0px 5px;
 }
 
-.cadre4 /* cadre bord arrondit gauche */
+#cadre4 /* cadre bord arrondit gauche */
 {
 	width: 90px;
 	height: 40px;
@@ -544,44 +536,44 @@ a
 
 .cercle
 {
-	z-index: 3;
-	margin-left: 232px;
-	margin-top: -84px;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	background-color: #4693B1;
-	border: solid 2px white;
+    z-index: 3;
+    margin-left: 232px;
+    margin-top: -84px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4693B1;
+    border: solid 2px white;
 }
 
 .container_eye
 
 {
-	margin-bottom: 25px;
-	z-index: 3;
+    margin-bottom: 25px;
+    z-index: 3;
 }
 
 .fa-eye
 {
-	position: absolute;
-	z-index: 4;
-	margin-left: 245px;
-	margin-top: -30px;
-	color: white;
+    position: absolute;
+    z-index: 4;
+    margin-left: 245px;
+    margin-top: -30px;
+    color: white;
 }
 
 .photop3 {
-	display: flex;
-	flex-flow: column;
-	padding: 5px;
-	max-width: 300px;
-	margin: auto;
-	position: relative;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 300px;
+    margin: auto;
+    position: relative;
 }
 
 .photos_page3 {
-	max-width: 300px; 
-	position: relative;
+    max-width: 300px; 
+    position: relative;
 }
 
 .photop3:hover .figcaption_page3
@@ -591,15 +583,15 @@ a
 
 .figcaption_page3
 {
-	background-color: #222;
-	opacity: 0;
-	color: white;
-	padding: 17px;
-	margin-top: 117px;
-	margin-left: 0px;
-	position: absolute;
-	width: 266px;
-	height: 49px;
+    background-color: #222;
+    opacity: 0;
+    color: white;
+    padding: 17px;
+    margin-top: 117px;
+    margin-left: 0px;
+    position: absolute;
+    width: 266px;
+    height: 49px;
 }
 
 .figcaption_page3:hover
@@ -609,8 +601,8 @@ a
 
 .text
 {
-	margin-left: -5px;
-	font-family: 'roboto';
+    margin-left: -5px;
+    font-family: 'roboto';
 }
 
 .ligne1
@@ -620,7 +612,7 @@ a
 	font-weight: bold;
 }
 
-.global1
+#portfolio_first
 {
 	position: relative;
 	display: flex;
@@ -628,7 +620,7 @@ a
 	margin-bottom: 20px;
 }
 
-.global2
+#portfolio_second
 {
 	position: relative;
 	display: flex;
@@ -652,16 +644,17 @@ a
 	z-index: 2;
 }
 
-.form_text_1
+#form_text_first
 {
 	color: black;
 	font-size: 25px;
 	font-family: 'roboto';
 	font-weight: 900;
-	margin-left: 15px;	
+	margin-left: 15px;
+	
 }
 
-.form_text_2
+#form_text_second
 {
 	color: #64686D;
 	margin-left: 17px;
@@ -670,7 +663,7 @@ a
 	font-weight: 400;
 }
 
-.SAS
+#sas
 {
 	color: #64686D;
 	margin-left: 17px;
@@ -680,7 +673,7 @@ a
 	margin-left: 0px;
 }
 
-.Subject, .Name, .Email, .Message
+#subject, #name, #mail, #message
 {
 	padding: 8px;
 	border-radius: 5px;
@@ -691,7 +684,7 @@ a
 	opacity: 0.7;
 }
 
-.Submit
+#submit
 {
 	margin-bottom: 30px;
 	background-color: #5CADD3;
@@ -704,7 +697,7 @@ a
 	margin-left: 17px;
 }
 
-.map
+#map
 {
 	position: absolute;
 	z-index: 1;
@@ -713,7 +706,7 @@ a
 	border: none;
 }
 
-.blue_filter
+#blue_filter
 {
 	background-color:  rgba(0, 120, 193, 0.9);
 	width: 100%;
@@ -731,9 +724,9 @@ a
 		margin: 0;
 	}
 
-	h1
+	h2
 	{
-		font-size: 1.5em;
+		font-size: 0.5em;
 	}
 
 	#global
@@ -741,22 +734,34 @@ a
 		width: auto;
 	}
 
-	.text_intro
+	#text_intro
 	{
 		display: none;
 	}
 
-	.container_accueil
+	#ligne2
 	{
-		position: relative;
+		font-size: 0.8em;
+		align-items: center;
 	}
 
-	.box_infos
+	#text_slider
+	{	
+	align-items: center;
+	}
+
+	#container_accueil
+	{
+		position: relative;
+		font-size: 1em;
+	}
+
+	#box_infos
 	{
 		margin:-64px 20px 18px -180px;
 	}
 
-	.logo
+	#logo_webagency
 	{
 		width: auto;
 		height: 30px;
@@ -764,23 +769,17 @@ a
 		margin-left: 30px;
 	}
 
-	.mac
+	#mac
 	{
 		display: none;
 	}
 
-	.map
+	#map
 	{
-
 		display: none;	
 	}
 
-	.blue_filter
-	{
-		display: none;
-	}
-
-	.page
+	#blue_filter
 	{
 		display: none;
 	}
@@ -798,22 +797,22 @@ a
 		padding-top: 0;
 	}
 
-	.Name, .Email, .Subject, .Message
+	#name, #email, #subject, #message
 	{
 		width: 75%;
 	}
 
-	.form_text_1
+	#form_text_first
 	{
 		 font-size: 1.3em;
 	}
 
-	.form_text_2
+	#form_text_second
 	{
 		font-size: 0.9em;
 	}
 
-	.nav
+	#nav
 	{
 		display: flex;
 		flex-direction: column;
@@ -823,6 +822,7 @@ a
 
 	.form
 	{
+	
 		margin-right: auto;
 		position: absolute;
 		margin-bottom: 15px;
@@ -832,7 +832,7 @@ a
 		margin-top: 0px;
 	}
 
-	.page2
+	#full_flexbox_p2
 	{
 		margin-top: 0px;
 	}
@@ -842,7 +842,7 @@ a
 		margin-top: -99px;
 	}
 
-	.textes_logos1, .textes_logos2, .textes_logos3
+	#textes_logos1, #textes_logos2, #textes_logos3
 	{
 		margin-right: 80px;
 	}
@@ -852,7 +852,7 @@ a
 		display: none;
 	}
 
-	.ux_text, .seo_text, .ui_text, .p_services, .description_services
+	#ux_text, #seo_text, #ui_text, #p_services, #description_services
 	{
 		font-size:0.9em;
 	}
@@ -869,18 +869,18 @@ a
 		font-size: 1.2em;
 	}
 
-	.global1
+	#portfolio_first
 	{
 		flex-direction: column;
 		margin-bottom: 0;
 	}
 
-	.global2
+	#portfolio_second
 	{
 		flex-direction: column;
 	}
-	
-		.barre, .barre1
+
+	#barre, #barre1
 	{
 		display: none;
 	}
