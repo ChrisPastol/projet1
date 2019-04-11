@@ -12,32 +12,32 @@
 
 <!-- Page 1 -->
 
-<section id="first">
-		<header id="container_accueil"> 
-			<img id="logo_webagency" src="images/logo.png" alt="logo_webagency">
+<section id="welcome">
+		<nav id="nav_barre"> 
+			<img id="logo_webagency" src="webagency_images/images/logo.png" alt="logo_webagency">
 			<ul id="nav">
 				<li><a class= "nav_bar" href="#"> Accueil</a></li>
 				<li><a class= "nav_bar" href="#Services"> Services</a></li>
 				<li><a class= "nav_bar" href="#projets"> Portfolio</a></li>
 				<li><a class= "nav_bar" href="#maps"> Contact</a></li>
 			</ul>
-		</header>
+		</nav>
 
 <!-- Slider -->
 		<div id="slider">
 			<figure>
-				<img src="images/slider/bg1.jpg" alt="enfant1_slider">
-				<img src="images/slider/bg2.jpg" alt="enfant2_slider">
+				<img src="webagency_images/images/slider/bg1.jpg" alt="enfant1_slider">
+				<img src="webagency_images/images/slider/bg2.jpg" alt="enfant2_slider">
 			</figure>
 		</div>
 <!-- Texte dans le slider -->
 		<div id="text_slider">
-			<h1 id="text_intro">
-				<span id="Web">WEBAGENCY</span> : L'AGENCE DE TOUS<br>
+			<h1 id="text_slider_intro">
+				<span id="text_slider_webagency">WEBAGENCY</span> : L'AGENCE DE TOUS<br>
 				VOS PROJETS !<br>
-				<span id="ligne2">Vous avez un projet web ? La WebAgency vous aide à le réaliser !</span>
+				<span id="text_slider_project">Vous avez un projet web ? La WebAgency vous aide à le réaliser !</span>
 			</h1>
-			<div id="box_infos">
+			<div id="button_infos">
 				<a id="plus_infos" href="#maps">Plus d'infos</a>
 			</div>
 		</div>
@@ -46,27 +46,27 @@
 		<div class="right"></div>
 		<a class="commandes left" href="#"> <i class="fas fa-chevron-left"></i></a>
 		<a class="commandes right" href="#"><i class="fas fa-chevron-right"></i></a>
-		<div id="barre"></div>
-		<div id="barre1"></div>
-		<div id="border_page1"></div>
+		<div id="progress_barre"></div>
+		<div id="progress_barre_opacity"></div>
+		<div id="welcome_bottom"></div>
 </section>
 <!-- Page 2 -->
-<section id="second">
-	<h2 id="services">NOS SERVICES</h2>
-	<div id="container1">
+<section id="services">
+	<h2 id="services_title">NOS SERVICES</h2>
+	<div id="icon_container_services">
 		<div class="line"></div>
 		<div class="circle"></div>
 		<div class="line"></div>
 	</div>
 
-	<p id="p_services">Voici un échantillon de nos services réalisés avec soins.<br>Notre agence web est l'une des plus reconnues du marché.</p>
+	<p id="text_intro_services">Voici un échantillon de nos services réalisés avec soins.<br>Notre agence web est l'une des plus reconnues du marché.</p>
 
 <!-- MAC + Textes + Logos -->
 
-	<div id="full_flexbox_p2"> <!-- FULL FLEXBOX P2-->
-		<img id="mac" src="images/main-feature.png" alt="photo_mac">
-		<div id="texts_and_logos">
-			<div id="textes_logos1"> <!-- FLEXBOX texte + logo 1 -->
+	<div id="services_presentation"> <!-- FULL FLEXBOX P2-->
+		<img id="mac" src="webagency_images/images/main-feature.png" alt="photo_mac">
+		<div id="presentation_icons_and_texts">
+			<div id="text_ux_design"> <!-- FLEXBOX texte + logo 1 -->
 				<div id="seo"> <!-- FLEXBOX logo 1 -->
 					<i class="fas fa-chart-line"></i>
 					<div class="mini_circle"></div> <!-- logo 1 -->
@@ -76,7 +76,7 @@
 				UX Design signifie User Experience Design. En Français,<br> il s’agit du design de l’expérience utilisateur.<br> A ne pas confondre avec l’UI Design</p>
 			</div> <!-- FIN DE FLEXBOX texte + logo 1 -->
 
-			<div id="textes_logos2"> <!-- FLEXBOX texte + logo 2 -->
+			<div id="text_ui_design"> <!-- FLEXBOX texte + logo 2 -->
 				<div id="ui">
 					<i class="fas fa-cubes"></i>
 					<div class="mini_circle"></div> <!-- FLEXBOX logo 2 -->
@@ -86,13 +86,13 @@
 				UI est l’abréviation d’user interface ou interface utilisateur.<br> L’UI design se rapporte donc à l’environnement graphique dans lequel évolue l’utilisateur d’un logiciel,<br> d’un site web ou d’une application</p>
 			</div> <!-- fin FLEXBOX texte + logo 2 -->
 
-			<div id="textes_logos3"> <!-- FLEXBOX texte + logo 3 -->
+			<div id="text_seo"> <!-- FLEXBOX texte + logo 3 -->
 				<div id="ux"> <!-- FLEXBOX logo 3 -->
 					<i class="fas fa-chart-pie"></i>
 					<div class="mini_circle"></div>
 					<div class="circle_design"></div>
 				</div> <!-- fin FLEXBOX logo 3 -->
-				<p id="seo_text"> <span class="title_services">SEO</span> <br>
+				<p id="seo_text"><span class="title_services">SEO</span> <br>
 				L’optimisation pour les moteurs de recherche, référencement naturel ou SEO (pour search engine optimization),<br> est un ensemble de techniques visant à optimiser la visibilité d'une page web dans les résultats de recherche</p>		
 			</div> <!-- fin FLEXBOX texte + logo 3 -->
 		</div>	
@@ -100,10 +100,10 @@
 </section>
 
 	<!-- Page 3 -->	
-<section id="third">
-		<div id="border_page3">
-			<h2 id="projets">NOS PROJETS</h2>
-			<div class="container2">
+<section id="projets">
+		<div id="top_projets">
+			<h2 id="projets_title">NOS PROJETS</h2>
+			<div id="icon_project_top">
 				<div class="line"></div>
 				<div class="circle"></div>
 				<div class="line"></div>
@@ -114,19 +114,19 @@
 		</p>
 
 		<div class="box_cadre">
-			<div id="cadre1">
+			<div id="cadre_left">
 				<a class="cadre_text" href="">All Works</a>
 				<div class="triangle"></div>
 			</div>
-			<div class="cadre">
+			<div class="cadre_center">
 				<a class="cadre_text" href="">Creative</a>
 				<div class="triangle"></div>
 			</div>
-			<div class="cadre">
+			<div class="cadre_center">
 				<a class="cadre_text" href="">Corporate</a>
 				<div class="triangle"></div>
 			</div>
-			<div id="cadre4">
+			<div id="cadre_right">
 				<a class="cadre_text" href="">Portfolio</a>
 				<div class="triangle"></div>
 			</div>
@@ -134,11 +134,11 @@
 	</div>
 
 	<div id="portfolio_first">
-		<div class="flex">
-			<figure class="photop3">
-				<img class="photos_page3" src="images/portfolio/01.jpg" alt="Lunettes">
-				<figcaption class="figcaption_page3">
-					<div class="text"><span class="ligne1"> Lunettes.com</span><br>Maquette de site web</div>
+		<div class="card_portfolio">
+			<figure class="portfolio">
+				<img class="portfolio_picture" src="webagency_images/images/portfolio/01.jpg" alt="Lunettes">
+				<figcaption class="figcaption_portfolio_picture">
+					<div class="texts_portfolio_hover"><span class="bolt_texts_portfolio"> Lunettes.com</span><br>Maquette de site web</div>
 					<div class="container_eye">
 						<div class="cercle"></div>
 						<i class="far fa-eye"></i>
@@ -147,11 +147,11 @@
 			</figure>
 		</div>
 
-		<div class="flex">
-			<figure class="photop3">
-				<img class="photos_page3" src="images/portfolio/02.jpg" alt="Smile">
-				<figcaption class="figcaption_page3">
-					<div class="text"><span class="ligne1">Smile.fr</span><br>Un site souriant</div>
+		<div class="card_portfolio">
+			<figure class="portfolio">
+				<img class="portfolio_picture" src="webagency_images/images/portfolio/02.jpg" alt="Smile">
+				<figcaption class="figcaption_portfolio_picture">
+					<div class="texts_portfolio_hover"><span class="bolt_texts_portfolio">Smile.fr</span><br>Un site souriant</div>
 					<div class="container_eye">
 						<div class="cercle"></div>
 						<i class="far fa-eye"></i>
@@ -160,11 +160,11 @@
 			</figure>
 		</div>
 
-		<div class="flex">
-			<figure class="photop3">
-				<img class="photos_page3" src="images/portfolio/03.jpg" alt="Pampadour">
-				<figcaption class="figcaption_page3">
-					<div class="text"><span class="ligne1">Pampadour Original</span><br>Crétion de logo</div>
+		<div class="card_portfolio">
+			<figure class="portfolio">
+				<img class="portfolio_picture" src="webagency_images/images/portfolio/03.jpg" alt="Pampadour">
+				<figcaption class="figcaption_portfolio_picture">
+					<div class="texts_portfolio_hover"><span class="bolt_texts_portfolio">Pampadour Original</span><br>Crétion de logo</div>
 					<div class="container_eye">
 						<div class="cercle"></div>
 						<i class="far fa-eye"></i>
@@ -173,11 +173,11 @@
 			</figure>
 		</div>
 
-		<div class="flex">
-			<figure class="photop3">
-				<img class="photos_page3" src="images/portfolio/04.jpg" alt="Blog">
-				<figcaption class="figcaption_page3">
-					<div class="text"><span class="ligne1">Blog & Forum</span><br>Complet de A à Z</div>
+		<div class="card_portfolio">
+			<figure class="portfolio">
+				<img class="portfolio_picture" src="webagency_images/images/portfolio/04.jpg" alt="Blog">
+				<figcaption class="figcaption_portfolio_picture">
+					<div class="texts_portfolio_hover"><span class="bolt_texts_portfolio">Blog & Forum</span><br>Complet de A à Z</div>
 					<div class="container_eye">
 						<div class="cercle"></div>
 						<i class="far fa-eye"></i>
@@ -188,11 +188,11 @@
 	</div>
 
 	<div id="portfolio_second">
-		<div class="flex">
-			<figure class="photop3">
-				<img class="photos_page3" src="images/portfolio/05.jpg" alt="shop">
-				<figcaption class="figcaption_page3">
-					<div class="text"><span class="ligne1">Web Shop</span><br>Vendez sur le net</div>
+		<div class="card_portfolio">
+			<figure class="portfolio">
+				<img class="portfolio_picture" src="webagency_images/images/portfolio/05.jpg" alt="shop">
+				<figcaption class="figcaption_portfolio_picture">
+					<div class="texts_portfolio_hover"><span class="bolt_texts_portfolio">Web Shop</span><br>Vendez sur le net</div>
 					<div class="container_eye">
 						<div class="cercle"></div>
 						<i class="far fa-eye"></i>
@@ -201,11 +201,11 @@
 			</figure>
 		</div>
 
-		<div class="flex">
-			<figure class="photop3">
-				<img class="photos_page3" src="images/portfolio/06.jpg" alt="image3D">
-				<figcaption class="figcaption_page3">
-					<div class="text"><span class="ligne1">3D Design</span><br>Votre site web animé 3D</div>
+		<div class="card_portfolio">
+			<figure class="portfolio">
+				<img class="portfolio_picture" src="webagency_images/images/portfolio/06.jpg" alt="image3D">
+				<figcaption class="figcaption_portfolio_picture">
+					<div class="texts_portfolio_hover"><span class="bolt_texts_portfolio">3D Design</span><br>Votre site web animé 3D</div>
 					<div class="container_eye">
 						<div class="cercle"></div>
 						<i class="far fa-eye"></i>
@@ -214,11 +214,11 @@
 			</figure>
 		</div>
 
-		<div class="flex">
-			<figure class="photop3">
-				<img class="photos_page3" src="images/portfolio/07.jpg" alt="Logo_type">
-				<figcaption class="figcaption_page3">
-					<div class="text"><span class="ligne1">Création de logo</span><br>sous votre plus beau jour !</div>
+		<div class="card_portfolio">
+			<figure class="portfolio">
+				<img class="portfolio_picture" src="webagency_images/images/portfolio/07.jpg" alt="Logo_type">
+				<figcaption class="figcaption_portfolio_picture">
+					<div class="texts_portfolio_hover"><span class="bolt_texts_portfolio">Création de logo</span><br>sous votre plus beau jour !</div>
 					<div class="container_eye">
 						<div class="cercle"></div>
 						<i class="far fa-eye"></i>
@@ -227,11 +227,11 @@
 			</figure>
 		</div>
 
-		<div class="flex">
-			<figure class="photop3">
-				<img class="photos_page3" src="images/portfolio/08.jpg" alt="portfolio">
-				<figcaption class="figcaption_page3">
-					<div class="text"><span class="ligne1">Portfolio complet</span><br>Vendez vous !</div>
+		<div class="card_portfolio">
+			<figure class="portfolio">
+				<img class="portfolio_picture" src="webagency_images/images/portfolio/08.jpg" alt="portfolio">
+				<figcaption class="figcaption_portfolio_picture">
+					<div class="texts_portfolio_hover"><span class="bolt_texts_portfolio">Portfolio complet</span><br>Vendez vous !</div>
 					<div class="container_eye">
 						<div class="cercle"></div>
 						<i class="far fa-eye"></i>
@@ -242,12 +242,11 @@
 </section>	
 
 	<!-- Page 4 -->
-<section id="fourth">	
-	<div id="maps"></div>
+<section id="map">
 	<form method="post" action="#" class="form">
-	<p id="form_text_first">Contact Info</p>
-	<p id="form_text_second">
-		<span id="sas">WebAgency SAS</span><br>
+	<p id="form_contact">Contact Info</p>
+	<p id="form_infos">
+		<span id="form_adress">WebAgency SAS</span><br>
 		25 Rue d'Hauteville 75012 Paris<br>
 		Tel : 01 02 03 04 05
 	</p>
@@ -258,7 +257,7 @@
 			<input type="Submit" value="Send Message" id="submit">
 	</form>
 	<div id="blue_filter"></div>
-	<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221609680721!2d2.3476369156402215!3d48.8730517792889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1549990941270" height="740" style="border:0" allowfullscreen></iframe>
+	<iframe id="google_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221609680721!2d2.3476369156402215!3d48.8730517792889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1549990941270" height="740" style="border:0" allowfullscreen></iframe>
 </section>			
 </body>
 </html>
