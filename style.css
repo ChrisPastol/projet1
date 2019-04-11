@@ -39,28 +39,28 @@ a
 
 /* --------------------- CSS page 1 ------------------ */
 
-#first
+#welcome
 {
 	background-image:linear-gradient(white, #F5F5F5);
 	position: relative;
 }
 /* Container accueil */
 
-#container_accueil
+#nav_barre
 {
 	position: fixed;
 	display: flex;
 	justify-content: space-around;
 	margin:0;
-	padding:0;
-	left: 0;
-	right: 0;
-	top: 0;
-	z-index: 1;
-	padding-top: 15px;
-	background-color: white;
-	padding-bottom: 20px;
-	z-index: 3;
+    padding:0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    padding-top: 15px;
+    background-color: white;
+    padding-bottom: 20px;
+    z-index: 3;
 }
 
 .li, .ul
@@ -143,21 +143,22 @@ a
 	top: 250px;
 	margin-left: 190px;
 }
-#text_intro
+
+#text_slider_intro
 {	
 	font-size: 35px;
 	color: white;
 	font-family: 'roboto';
-	font-weight: 900;
+    font-weight: 900;
 }
 
-#ligne2
+#text_slider_project
 {
 	font-size: 15px;
 	
 }
 
-#barre
+#progress_barre
 {
 	position: absolute;
 	z-index: 1;
@@ -169,7 +170,7 @@ a
 	margin-top: -4px;
 }
 
-#barre1
+#progress_barre_opacity
 {
 	background-color:#5CADD3;
 	width: 200px;
@@ -180,7 +181,7 @@ a
 	opacity: 0.9;
 }
 
-#box_infos
+#button_infos
 {
 	width: 115px;
 	height: 43px;
@@ -189,7 +190,7 @@ a
 	border-bottom: 3px solid #4494BB;
 }
 
-#Web
+#text_slider_webagency
 {
 	color: #5CADD3;
 }
@@ -202,7 +203,7 @@ a
 	position: absolute;
 }
 
-#border_page1
+#welcome_bottom
 {
 	padding-bottom: 90px;
 }
@@ -219,9 +220,9 @@ a
 	left: 0px;
 	border-radius: 0 50% 50% 0;
 	background-color: rgba(0, 0, 0, 0.2);
-	width: 60px;
-	height: 60px;
-	display: block;
+    width: 60px;
+    height: 60px;
+    display: block;
 }
 
 .right
@@ -257,7 +258,7 @@ a
 
 /* ---------------- CSS page 2 ---------------- */
 
-#services
+#services_title
 {
 	text-align: center;
 	margin-top: 70px;
@@ -268,7 +269,7 @@ a
 
 /* Container trait-ron_bleu_trait page 2 */
 
-#container1
+#icon_container_services
 {
 	display: flex;
 	align-items: center;
@@ -297,20 +298,20 @@ a
 
 /* Phrase d'accroche page 2 */
 
-#p_services
+#text_intro_services
 {
 	text-align: center;
 	padding: 10px;
 }
 
-#textes_logos1, #textes_logos2, #textes_logos3
+#text_ux_design, #text_ui_design, #text_seo
 {
 	display: flex;
 	margin-left: 50px;
 	margin-top: 40px;
 }
 
-#full_flexbox_p2
+#services_presentation
 {
 	display: flex;
 	margin-top: 80px;
@@ -353,8 +354,8 @@ a
 	height: 14px;
 	border-radius: 50%;
 	background: #5CADD3;
-	margin-left: 44px;
-	margin-top: 18px;
+    margin-left: 44px;
+    margin-top: 18px;
 	position: absolute;
 	border: white solid 4px;	
 }
@@ -378,7 +379,7 @@ a
 
 /* ------------------------ CSS page 3 ------------------------ */
 
-#border_page3
+#top_projets
 {
 	background-image:linear-gradient(#F5F5F5, white);
 }
@@ -390,7 +391,7 @@ a
 }
 
 
-#projets
+#projets_title
 {
 	text-align: center;
 	font-size: 2.5em;
@@ -401,7 +402,7 @@ a
 
 /* container trait rond_bleu trait page 3 */
 
-.container2
+#icon_project_top
 {
 	display: flex;
 	justify-content: center;
@@ -434,61 +435,61 @@ a
 	margin-bottom: 40px;
 }
 
-.cadre:hover
+.cadre_center:hover
 {
 	background-color: #5CADD3;
 	opacity: 0.9;
 	border-bottom: 3px solid #468CAD;
 }
 
-.cadre:hover .triangle
+.cadre_center:hover .triangle
 {
 	border-top : 10px solid #4494BB;
 }
 
-#cadre1:hover .triangle
+#cadre_left:hover .triangle
 {
 	border-top : 10px solid #4494BB;
 }
 
-#cadre4:hover .triangle
+#cadre_right:hover .triangle
 {
 	border-top : 10px solid #4494BB;
 }
 
-.cadre:hover .cadre_text
+.cadre_center:hover .cadre_text
 {
 	color: white;
 	font-weight: 400;
 }
 
-#cadre1:hover .cadre_text
+#cadre_left:hover .cadre_text
 {
 	color: white;
 	font-weight: 400;
 }
 
-#cadre4:hover .cadre_text
+#cadre_right:hover .cadre_text
 {
 	color: white;
 	font-weight: 400;
 }
 
-#cadre1:hover
+#cadre_left:hover
 {
 	background-color: #5CADD3;
 	opacity: 0.9;
 	border-bottom: 3px solid #468CAD;
 }
 
-#cadre4:hover
+#cadre_right:hover
 {
 	background-color: #5CADD3;
 	opacity: 0.9;
 	border-bottom: 3px solid #468CAD;
 }
 
-.cadre
+.cadre_center
 {
 	width: 90px;
 	height: 40px;
@@ -497,7 +498,7 @@ a
 	border-bottom: 3px solid #F5F5F5;
 }
 
-#cadre1 /* cadre bord arrondit droit */
+#cadre_left /* cadre bord arrondit droit */
 {
 	width: 90px;
 	height: 40px;
@@ -508,7 +509,7 @@ a
 	border-radius: 5px 0px 0px 5px;
 }
 
-#cadre4 /* cadre bord arrondit gauche */
+#cadre_right /* cadre bord arrondit gauche */
 {
 	width: 90px;
 	height: 40px;
@@ -536,76 +537,76 @@ a
 
 .cercle
 {
-	z-index: 3;
-	margin-left: 232px;
-	margin-top: -84px;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	background-color: #4693B1;
-	border: solid 2px white;
+    z-index: 3;
+    margin-left: 232px;
+    margin-top: -84px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4693B1;
+    border: solid 2px white;
 }
 
 .container_eye
 
 {
-	margin-bottom: 25px;
-	z-index: 3;
+    margin-bottom: 25px;
+    z-index: 3;
 }
 
 .fa-eye
 {
-	position: absolute;
-	z-index: 4;
-	margin-left: 245px;
-	margin-top: -30px;
-	color: white;
+    position: absolute;
+    z-index: 4;
+    margin-left: 245px;
+    margin-top: -30px;
+    color: white;
 }
 
-.photop3 {
-	display: flex;
-	flex-flow: column;
-	padding: 5px;
-	max-width: 300px;
-	margin: auto;
-	position: relative;
+.portfolio {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 300px;
+    margin: auto;
+    position: relative;
 }
 
-.photos_page3 {
-	max-width: 300px; 
-	position: relative;
+.portfolio_picture {
+    max-width: 300px; 
+    position: relative;
 }
 
-.photop3:hover .figcaption_page3
+.portfolio:hover .figcaption_portfolio_picture
 {
 	opacity: 0.9;
 }
 
-.figcaption_page3
+.figcaption_portfolio_picture
 {
-	background-color: #222;
-	opacity: 0;
-	color: white;
-	padding: 17px;
-	margin-top: 117px;
-	margin-left: 0px;
-	position: absolute;
-	width: 266px;
-	height: 49px;
+    background-color: #222;
+    opacity: 0;
+    color: white;
+    padding: 17px;
+    margin-top: 117px;
+    margin-left: 0px;
+    position: absolute;
+    width: 266px;
+    height: 49px;
 }
 
-.figcaption_page3:hover
+.figcaption_portfolio_picture:hover
 {
 	opacity: 0.9;
 }
 
-.text
+.texts_portfolio_hover
 {
-	margin-left: -5px;
-	font-family: 'roboto';
+    margin-left: -5px;
+    font-family: 'roboto';
 }
 
-.ligne1
+.bolt_texts_portfolio
 {
 	font-size: 22px;
 	font-family: 'roboto';
@@ -644,7 +645,7 @@ a
 	z-index: 2;
 }
 
-#form_text_first
+#form_contact
 {
 	color: black;
 	font-size: 25px;
@@ -654,7 +655,7 @@ a
 	
 }
 
-#form_text_second
+#form_infos
 {
 	color: #64686D;
 	margin-left: 17px;
@@ -663,7 +664,7 @@ a
 	font-weight: 400;
 }
 
-#sas
+#form_adress
 {
 	color: #64686D;
 	margin-left: 17px;
@@ -697,7 +698,7 @@ a
 	margin-left: 17px;
 }
 
-#map
+#google_map
 {
 	position: absolute;
 	z-index: 1;
@@ -734,7 +735,7 @@ a
 		width: auto;
 	}
 
-	#text_intro
+	#text_slider_intro
 	{
 		display: none;
 	}
@@ -747,16 +748,16 @@ a
 
 	#text_slider
 	{	
-		align-items: center;
+	align-items: center;
 	}
 
-	#container_accueil
+	#nav_barre
 	{
 		position: relative;
 		font-size: 1em;
 	}
 
-	#box_infos
+	#button_infos
 	{
 		margin:-64px 20px 18px -180px;
 	}
@@ -774,9 +775,9 @@ a
 		display: none;
 	}
 
-	#map
+	#google_map
 	{
-		display: none;	
+		display: none;
 	}
 
 	#blue_filter
@@ -802,12 +803,12 @@ a
 		width: 75%;
 	}
 
-	#form_text_first
+	#form_contact
 	{
 		 font-size: 1.3em;
 	}
 
-	#form_text_second
+	#form_infos
 	{
 		font-size: 0.9em;
 	}
@@ -832,7 +833,7 @@ a
 		margin-top: 0px;
 	}
 
-	#full_flexbox_p2
+	#services_presentation
 	{
 		margin-top: 0px;
 	}
@@ -852,18 +853,18 @@ a
 		display: none;
 	}
 
-	#ux_text, #seo_text, #ui_text, #p_services, #description_services
+	#ux_text, #seo_text, #ui_text, #text_intro_services, #description_services
 	{
 		font-size:0.9em;
 	}
 
-	#services
+	#services_title
 	{
 		margin-top: 20px;
 		font-size: 1.2em;
 	}
 
-	#projets
+	#projets_title
 	{
 		margin-top: -10px;
 		font-size: 1.2em;
@@ -880,7 +881,7 @@ a
 		flex-direction: column;
 	}
 
-	#barre, #barre1
+	#progress_barre, #progress_barre_opacity
 	{
 		display: none;
 	}
